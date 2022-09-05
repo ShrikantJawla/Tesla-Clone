@@ -14,7 +14,7 @@
 ::-webkit-scrollbar-thumb{
   background-color: grey;
   border:1px solid white;
-  border-radius: 20px;
+  border-radius: 21px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
