@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+::-webkit-scrollbar{
+  background-color: aliceblue;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: grey;
+  border:1px solid white;
+  border-radius: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
